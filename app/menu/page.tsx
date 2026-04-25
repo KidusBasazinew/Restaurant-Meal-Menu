@@ -122,7 +122,7 @@ export default function MenusPage() {
       <div className="px-6 mt-10">
         <div className="w-full bg-gradient-to-br from-red-500 to-orange-600 rounded-[2.5rem] p-6 text-white flex justify-between items-center overflow-hidden relative">
           <div className="relative z-10">
-            <h4 className="font-bold text-lg">Chef's Choice</h4>
+            <h4 className="font-bold text-lg">Chef&apos;s Choice</h4>
             <p className="text-white/80 text-xs mb-4">
               Get 20% off on your first wine
             </p>

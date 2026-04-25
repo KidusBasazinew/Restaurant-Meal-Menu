@@ -1,6 +1,6 @@
 "use client";
 
-import { Search, Heart, Home, ShoppingBag, User } from "lucide-react";
+import { Search, Heart } from "lucide-react";
 
 import { useMemo } from "react";
 
@@ -9,7 +9,6 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { MEALS } from "@/lib/data";
-import BottomNavBar from "@/components/BottomNavBar";
 
 export default function HomePage() {
   const featuredMeals = useMemo(() => MEALS.slice(0, 2), []);
